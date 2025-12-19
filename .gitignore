@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# YOLO / Training Daten (Wichtig!)
+runs/
+*.pt
+*.onnx
+datasets/
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# OneDrive / Backup Reste
+*.tmp
